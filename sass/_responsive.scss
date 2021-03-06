@@ -51,9 +51,10 @@
 	/*************************
 		header
 	///**********************/
-	 .header {	
+	.header {	
 
 		.navbar {
+			z-index: 99;
 
 			.navbar-header {
 
@@ -196,7 +197,7 @@
 								line-height: 30px;
 								position: relative;
 
-								&:hover, &:focus, &.active {
+								&:focus, &.active {
 									color: $yellow;
 									text-decoration: none;
 

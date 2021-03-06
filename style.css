@@ -106,10 +106,11 @@ h2, .h2 {
   width: 500px;
   z-index: -999;
   right: -500px;
-  display: table;
+  display: none;
   min-height: 250px;
   position: absolute;
   background: #f1f1df;
+  margin-right: -500px;
   transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -120,6 +121,9 @@ h2, .h2 {
 .search-bar.active {
   right: 0;
   z-index: 999;
+  display: block;
+  display: table;
+  margin-right: 0;
 }
 .search-bar .content {
   display: table-cell;
@@ -315,6 +319,9 @@ h2, .h2 {
   /*************************
   	header
   ///**********************/
+  .header .navbar {
+    z-index: 99;
+  }
   .header .navbar .navbar-header {
     width: 100%;
     display: flex;
@@ -432,11 +439,11 @@ h2, .h2 {
     line-height: 30px;
     position: relative;
   }
-  .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:hover, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:focus, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a.active {
+  .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:focus, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a.active {
     color: #FDC124;
     text-decoration: none;
   }
-  .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:hover:after, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:focus:after, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a.active:after {
+  .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a:focus:after, .sidr .sidr-inner .mobile-menu .menu .navbar-nav li a.active:after {
     top: 10px;
     left: -2px;
     content: "";

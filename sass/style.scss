@@ -61,15 +61,19 @@
 	width: 500px;
 	z-index: -999;
 	right: -500px;
-	display: table;
+	display: none;
 	min-height: 250px;
 	position: absolute;
 	background: #f1f1df;
+	margin-right: -500px;
 	@include transition(all .4s ease);
 
 	&.active {
 		right: 0;
 		z-index: 999;
+		display: block;
+		display: table;
+		margin-right: 0;
 	}
 
 	.content {
