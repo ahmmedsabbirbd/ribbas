@@ -39,4 +39,11 @@ $('documnet').ready(function() {
         $('.search-bar, .show-overly').removeClass('active');
     });/*search-&-sidr-&-overly-close*/
 
+    $('.product-list').isotope({
+      // set itemSelector so .grid-sizer is not used in layout
+      itemSelector: '.single-item',
+      percentPosition: true,
+      masonry: { 
+      }
+    });
 });

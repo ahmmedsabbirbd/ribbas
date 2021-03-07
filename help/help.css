@@ -1,15 +1,19 @@
 /***********************
 	color
 ///*********************/
-
+$blue: #099999;
+$black: #3D3D3D;
+$white: #DDDDDD;
+$yellow: #FDC124;
 /***********************
 	font-family
 ///*********************/
-
+$aka: 'Akaya Kanadaka', cursive;
+$spori: 'Shippori Mincho', serif;
 /***********************
 	heading
 ///*********************/
-
+h2, .h2 {font-size: 32px;line-height: 41px;font-family: $spori;}
  
 
 
