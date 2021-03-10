@@ -52,12 +52,35 @@ ul {
 
 /*/// extend ///*/
 /*/// mixin ///*/
-h2, .h2 {
+h1, .h2, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   color: #FDC124;
-  font-size: 32px;
   font-weight: 700;
-  line-height: 41px;
   font-family: "Shippori Mincho", serif;
+}
+
+h1, .h1 {
+  font-size: 37px;
+  line-height: 49px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+  line-height: 41px;
+}
+
+h3, .h3 {
+  font-size: 27px;
+  line-height: 39px;
+}
+
+h4, .h4 {
+  font-size: 25px;
+  line-height: 36px;
+}
+
+h5, .h5 {
+  font-size: 22px;
+  line-height: 33px;
 }
 
 .btn {
@@ -81,6 +104,7 @@ h2, .h2 {
 
 body {
   font-family: "Akaya Kanadaka", cursive;
+  color: #424C5E;
   position: relative;
   overflow-x: hidden;
 }
@@ -270,9 +294,9 @@ html, body {
   margin: 20px 0;
 }
 .woner .row .content p {
-  color: #DDDDDD;
   font-size: 15px;
   line-height: 27px;
+  color: #424C5E;
 }
 .woner .row .content .button {
   margin-top: 15px;
@@ -491,6 +515,52 @@ html, body {
 }
 
 /*************************
+	About Page
+\\\**********************/
+.details {
+  margin-top: 80px;
+  background: #011538;
+}
+.details .content {
+  padding: 100px;
+}
+.details .content .title {
+  color: #DDDDDD;
+}
+.details .content .title.profesion {
+  float: right;
+  font-size: 30px;
+}
+.details .content .name {
+  color: #099999;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 50px;
+  line-height: 70px;
+  margin-left: 300px;
+  text-align: center;
+  font-style: italic;
+  display: inline-block;
+  border: 2px solid #DDDDDD;
+}
+
+.about-me {
+  margin: 50px 0;
+}
+.about-me .content h1.title {
+  position: relative;
+  padding-bottom: 20px;
+}
+.about-me .content h1.title:after {
+  left: 0;
+  bottom: 0;
+  content: "";
+  width: 40px;
+  height: 5px;
+  background: #099999;
+  position: absolute;
+}
+/*************************
 	footer
 \\\**********************/
 .footer {
@@ -586,9 +656,9 @@ html, body {
 }
 /*/// 1366px ///*/
 @media only screen and (max-width: 1199px) {
-  h2, .h2 {
-    font-size: 30px;
-    line-height: 39px;
+  h1, .h1 {
+    font-size: 35px;
+    line-height: 46px;
   }
 
   /*************************
@@ -747,9 +817,14 @@ html, body {
 }
 /*/// 1199px ///*/
 @media only screen and (max-width: 991px) {
+  h1, .h1 {
+    font-size: 33px;
+    line-height: 44px;
+  }
+
   h2, .h2 {
-    font-size: 28px;
-    line-height: 37px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .btn {
@@ -809,11 +884,6 @@ html, body {
 }
 /*/// 991px ///*/
 @media only screen and (max-width: 767px) {
-  h2, .h2 {
-    font-size: 25px;
-    line-height: 33px;
-  }
-
   .btn {
     padding: 10px 24px;
   }
@@ -928,11 +998,6 @@ html, body {
 }
 /*/// 680px ///*/
 @media only screen and (max-width: 575px) {
-  h2, .h2 {
-    font-size: 23px;
-    line-height: 30px;
-  }
-
   /*************************
   	woner
   ///**********************/
@@ -967,11 +1032,6 @@ html, body {
 }
 /*/// 540px ///*/
 @media only screen and (max-width: 480px) {
-  h2, .h2 {
-    font-size: 22px;
-    line-height: 29px;
-  }
-
   /*************************
   	woner
   ///**********************/
@@ -1002,11 +1062,6 @@ html, body {
 }
 /*/// 420px ///*/
 @media only screen and (max-width: 380px) {
-  h2, .h2 {
-    font-size: 21px;
-    line-height: 28px;
-  }
-
   .btn {
     font-size: 14px;
     padding: 9px 16px;
@@ -1032,11 +1087,6 @@ html, body {
 }
 /*/// 380px ///*/
 @media only screen and (max-width: 320px) {
-  h2, .h2 {
-    font-size: 21px;
-    line-height: 28px;
-  }
-
   .btn {
     font-size: 14px;
     padding: 9px 16px;

@@ -51,10 +51,10 @@
 @media only screen and(max-width: 1199px) {
 
 	/// H1 -- h6
-	h2, .h2 {
-		font-size: 30px;
-		line-height: 39px;
-	}
+	h1, .h1 {
+		font-size: 35px;
+    	line-height: 46px;
+	} 
 	/*************************
 		header
 	///**********************/
@@ -261,9 +261,13 @@
 @media only screen and(max-width: 991px) {
 
 	/// H1 -- h6
+	h1, .h1 {
+		font-size: 33px;
+    	line-height: 44px;
+	}
 	h2, .h2 {
-		font-size: 28px;
-		line-height: 37px;
+		font-size: 30px;
+		line-height: 40px;
 	}
 	/// Button 
 	.btn {
@@ -343,11 +347,6 @@
 
 @media only screen and(max-width: 767px) {
 
-	/// H1 -- h6
-	h2, .h2 {
-		font-size: 25px;
-		line-height: 33px;
-	}
 	/// Button 
 	.btn {
 		padding: 10px 24px;	
@@ -494,11 +493,7 @@
 }/*/// 680px ///*/
 
 @media only screen and(max-width: 575px) {
-	/// H1 -- h6
-	h2, .h2 {
-		font-size: 23px;
-		line-height: 30px;
-	}
+	 
 	/*************************
 		woner
 	///**********************/
@@ -547,11 +542,7 @@
 
 @media only screen and(max-width: 480px) {
 
-	/// H1 -- h6
-	h2, .h2 {
-		font-size: 22px;
-		line-height: 29px;
-	}/*************************
+	/*************************
 		woner
 	///**********************/
 	.woner {
@@ -595,12 +586,7 @@
 }/*/// 420px ///*/
 
 @media only screen and(max-width: 380px) {
-
-	/// H1 -- h6
-	h2, .h2 {
-		font-size: 21px;
-		line-height: 28px;
-	}
+ 
 	/// Button 
 	.btn {
 		font-size: 14px;
@@ -635,11 +621,6 @@
 
 @media only screen and(max-width: 320px) {
 
-	/// H1 -- h6
-	h2, .h2 {
-		font-size: 21px;
-		line-height: 28px;
-	}
 	/// Button 
 	.btn {
 		font-size: 14px;
